@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="portafolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    
+    <script src="portafolio.js"></script>
+
+    <title>Portafolio</title>
+</head>
+<body>
+    
+    <header>
+        <h1 id="typing-title"></h1>
+        <h2 id="typing-subtitle"></h2>
+        <nav>
+            <ul>
+                <li><a href="#about-me">Acerca de mí</a></li>
+                <li><a href="#portfolio">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="hero">
+        <div class="container">
+            <h2>Programador Front-end & Back-end</h2>
+            <p>Desarrollo sitios web y aplicaciones web a medida, con experiencia en HTML, CSS Y JAVASCRIPT.</p>
+            <a href="#portfolio" class="button">Ver proeyctos</a>
+        </div>
+    </section>
+
+
+    <!--sobre mi-->
+
+    <section id="about-me">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <div class="about-content">
+                <img src="img/perfil.jpg" alt="Foto de perfil" class="profile-photo">
+                <p>Soy un desarrollador frontend apasionado por crear experiencias de usuario atractivas e intuitivas. Con una sólida comprensión de HTML, CSS y JavaScript, me especializo en transformar diseños estáticos en sitios web y aplicaciones interactivas y responsivas. Mi objetivo es combinar creatividad con funcionalidad, asegurando que cada proyecto no solo se vea bien, sino que también ofrezca una navegación fluida y eficiente. Siempre estoy en búsqueda de nuevas tecnologías y mejores prácticas para mejorar mis habilidades y ofrecer soluciones innovadoras a los desafíos del desarrollo web.</p>
+            </div>
+            <div class="tiHabilidades">
+                <h2>Habilidades</h2>
+            </div>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="skill">
+                        <h5>HTML + CSS</h5>
+                        <img src="img/html.png" alt="Habilidad 1">
+                        <p>Tengo un dominio avanzado de HTML, permitiéndome estructurar páginas web de forma semántica y accesible. Me especializo en crear layouts complejos y optimizar contenido para SEO, asegurando compatibilidad entre navegadores y accesibilidad para todos los usuarios.</p>
+                    </div>
+                    <div class="skill">
+                        <h5>PHP</h5>
+                        <img src="img/php.png" alt="Habilidad 2">
+                        <p>Tengo experiencia avanzada en PHP, lo que me permite desarrollar aplicaciones web dinámicas y robustas. Mis habilidades incluyen la creación de scripts eficientes, la integración con bases de datos, y el manejo seguro de datos. Además, aplico buenas prácticas de codificación para asegurar un rendimiento óptimo y un mantenimiento sencillo.</p>
+                    </div>
+                    <div class="skill">
+                        <h5>Dart & Flutter</h5>
+                        <img src="img/flutter.png" alt="Habilidad 3">
+                        <p>Tengo experiencia en Dart y Flutter, creando aplicaciones móviles multiplataforma con interfaces atractivas y fluidas. Soy experto en diseño de widgets personalizados, gestión de estado e integración con APIs, asegurando un rendimiento óptimo en Android e iOS.</p>
+                    </div>
+                </div>
+                <button class="carousel-button prev">‹</button>
+                <button class="carousel-button next">›</button>
+            </div>
+            <a href="https://github.com/pool-99" target="_blank" class="button">Ver perfil de GitHub</a>
+        </div>
+    </section>
+
+
+    <!--portafolio-->
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="row">
+                <div class="portfolio-item">
+                    <img class="img-proyecto" src="img/proyecto1.png" alt="MedControl App">
+                    <div class="overlay">
+                        <h3>MedControl App</h3>
+                        <p>MedControl es una aplicación de gestión de medicinas diseñada para ayudar a los usuarios a organizar y recordar su régimen de medicamentos. Desarrollado en los siguientes lenguajes de programacion:</p>
+                        <div class="additional-images">
+                            <img src="img/flutter2.png">
+                            <img src="img/firebase.png" alt="Additional Image 2">
+                        </div>
+                    </div>
+                </div>
+                
+    
+                <div>
+                    <div class="portfolio-item">
+                        <img class="img-proyecto" src="img/proyecto2.png">
+                        <div class="overlay">
+                            <h3>Sistema de inventario Bodega Victoria</h3>
+                            <p>Un sistema de gestión de inventarios para la bodega Victoria desarrollado en PHP. Ofrece una interfaz fácil de usar que permite a los usuarios realizar un seguimiento de productos, gestionar el stock y generar informes detallados.</p>
+                            <div class="additional-images">
+                                <img src="img/php2.png" alt="Additional Image 1">
+                                <img src="img/mysql.png" alt="Additional Image 2">
+                                <img src="img/boostrap.png" alt="Additional Image 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <div class="portfolio-item">
+                        <img class="img-proyecto" src="img/preyecto3.png">
+                        <div class="overlay">
+                            <h3>Sistema de inventario Bodega Geely</h3>
+                            <p>Esta es una solución robusta de inventario basada en PHP, diseñada para optimizar la gestión de almacenes. Proporciona funcionalidades como seguimiento en tiempo real de inventarios, gestión de pedidos, y auditorías de stock. </p>
+                            <div class="additional-images">
+                                <img src="img/php2.png" alt="Additional Image 1">
+                                <img src="img/mysql.png" alt="Additional Image 2">
+                                <img src="img/laravel.png" alt="Additional Image 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--contacto-->
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-info">
+                <h3>Información de contacto</h3>
+                <p>Correo electrónico: <a href="mailto:tucorreo@ejemplo.com">poolpina08@gmail.com</a></p>
+                <ul class="social-media">
+                    <li><a href="https://www.facebook.com/paul.pina.549" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://github.com/pool-99" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://wa.me/qr/QNHZQYM3KJUAI1" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
