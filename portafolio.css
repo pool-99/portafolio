@@ -82,7 +82,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: var(--secondary-color);
     text-decoration: none;
     padding: 15px 20px;
     display: block;
@@ -141,6 +141,7 @@ nav ul li a:hover {
 
 .container p {
     color: var(--secondary-color);
+    font-size: 27px;
 }
 
 #about-me h2 {
